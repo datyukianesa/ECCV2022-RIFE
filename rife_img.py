@@ -44,7 +44,7 @@ model.eval()
 model.device()
 
 #DATASET PATH
-dataset_dir = Path("/content/drive/MyDrive/datasets/test_2k_540p")
+dataset_dir = Path("/content/datasets/test_2k_540p")
 print(f"Starting inference on dataset: {dataset_dir}")
 
 count = 0
